@@ -1,0 +1,38 @@
+
+.DownloadDiv{
+display: flex;
+justify-content: space-around;
+background-color:#EBEBEB;
+align-items: center;
+width: 100%;
+
+}
+.DownOptions{
+    width: 30%;
+}
+.DownImg{
+
+width: 25%;
+
+}
+.DownImg img{
+
+    width: 100%;
+}
+.DownloadDiv p{
+
+    color:#706F7B;
+    font-size: 13px;
+
+    }
+    .DownloadDiv h2{
+        font-size: 40px;
+    }
+   .downloadBtns{
+    display: flex;
+    margin-top: 5%;
+
+   }
+.downloadBtns img:nth-child(2){
+   margin-left: 2%;
+   }

@@ -1,0 +1,123 @@
+*{
+    font-family: 'Poppins',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+.headContainer{
+    padding-top: 2vh;
+display: flex;
+align-items: center;
+justify-content: space-around;
+width:100%;
+
+
+}
+.navLogos{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+#wifiImg{
+height: 20px;
+position: absolute;
+left: -1.5vw;
+bottom: 3vh;
+
+}
+#navCar{
+height: 50px;
+
+}
+.navlinks{
+color: #000;
+
+font-size: 17px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration: none;
+}
+.nav{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+  
+
+}
+h1{
+   color: #201E20;
+
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+#Register{
+width: 123px;
+height: 50px;
+background: rgba(41, 84, 234, 0.60);
+border: none;
+margin: 5px;
+outline :none;
+box-shadow: 2px 1px 10px rgba(41, 84, 234, 0.60);
+transition: 1s ;
+}
+#signIn{
+  color: #000;
+
+font-size: 17px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration: none;
+border: none;
+background: transparent;  
+margin: 5px;
+}
+.navlinks:hover{
+    animation: anim 1s;
+}
+@keyframes anim {
+    100%{
+        font-size: 14px;
+    }
+}
+#Register:hover{
+    box-shadow: 5px 5px 20px #2954EA;
+    
+}
+.mobileMenu{
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+.mobileClickClass{
+display: block;
+display: flex;
+flex-direction: column;
+
+}
+.mobileMenuBtn{
+    display: none;
+}
+
+
+@media screen and (min-width: 380px) and (max-width: 480px) {
+   .nav{
+display: none;
+
+   }
+   .headBtns{
+    display: none;
+   }
+   #wifiImg{
+    display: none;
+   }
+
+   .mobileMenuBtn{
+    display: block;
+}
+
+}

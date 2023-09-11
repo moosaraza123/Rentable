@@ -1,0 +1,202 @@
+
+.Reservation{
+
+width: 70%;
+background: #fff;
+
+
+/* overflow: scroll; */
+position: absolute;
+
+
+z-index: 99999999;
+
+box-shadow: 10px 10px 30px black;
+overflow: scroll;
+
+}
+
+.headReservation{
+ 
+width: 100%;
+height: 10vh;
+background:#2A54EA;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.headReservation i{
+
+    color: #fff;
+    margin: 20px;
+    cursor: pointer;
+    
+    }
+.headReservation h4{
+    color: #fff;
+    margin-left: 1vw;
+}
+i{
+    color:#2A54EA;
+    margin-bottom: 1%;
+    font-size: 20px;
+
+    padding: 4px;
+}
+.headResNotification{
+    padding: 3%;
+    background: #f1f9ff;
+    
+}
+.headResNotification p{
+    font-size: 30px;
+    opacity: 0.5;
+}
+.detailCar{
+
+
+
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+.carDisplay{
+    height: 100%;
+    width: 50%;
+}
+.carDisplay img{
+
+width: 500px;
+
+
+}
+.detailCar span{
+    display: flex;
+    
+}
+.block{
+   display: none;
+}
+.detailCar h5{
+color: #2A54EA;
+font-size: 20px;
+padding: 10px
+}
+.detailCar h6{
+    color: #000;
+    font-size: 15px;
+    padding: 10px;
+}
+.detailCar p{
+    color: #000;
+    opacity: 0.5;
+}
+.LocationNDate{
+    height: 100%;
+ 
+  
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   
+}
+.personalInfo{
+    height: 10vh;
+   
+    display: flex;
+    flex-direction: column;
+    padding:5% ;
+
+   
+
+}
+.info-form__2col{
+
+    display: flex;
+
+ 
+    width: 100%;
+    height: 30vh;
+
+align-items: center;
+
+
+
+}
+.personalInfo input{
+    display: block;
+    width:30vw;
+    height: 6vh;
+    margin-right: 1vw;
+    border: none;
+   background: #DBDBDB;
+    color: #777777;
+    padding: 5px;
+    outline: none;
+ 
+    
+
+
+}
+.personalInfo label{
+    color:#777777;
+}
+.info-form__2col div{
+height: 100%;
+    display: flex;
+flex-direction: column;
+justify-content: space-around;
+
+
+}
+.info-form__1col{
+    display: flex;
+    padding-top: 3%;
+
+   
+}
+b{
+    color: red;
+}
+.personalInfo p{
+    font-size: 10px;
+}
+.personalInfo h4{
+    color: #2A54EA;
+}
+.info-form__checkbox {
+display: flex;
+align-items: center;
+
+
+}
+.info-form__checkbox input{
+    height: 20px;
+    width: 20px;
+}
+.reserveDiv{
+    margin-top: 3vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+
+}
+.reserveDiv button{
+    width: 25%;
+    height: 7vh;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color:#fff;
+    background: #2A54EA;
+    font-weight: bolder;
+    cursor: pointer;
+ 
+}
+.reserveDiv button:hover{
+    box-shadow: 2px 2px 10px #2A54EA;
+}

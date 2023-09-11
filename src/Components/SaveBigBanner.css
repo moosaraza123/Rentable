@@ -1,0 +1,12 @@
+.SaveBigBannerDiv{
+
+
+background-color: #2d2d2d;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 5vw 5vh;
+}
+.SaveBigBannerDiv h2,p{
+    color: #fff;
+}

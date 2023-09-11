@@ -1,0 +1,103 @@
+.BookmainContainer{
+width: 100%;
+
+
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction:column ;
+
+position: relative;
+margin-top: 20vh;
+
+}
+.bookForm{
+display: flex;
+flex-direction: column;
+
+
+}
+label img{
+width: 7%;
+height: 25%;
+}
+.firstThree{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5vh;
+
+}
+.lastTwo{
+    display: flex;
+    justify-content: space-around;
+  
+}
+select{
+  width:250px ;
+  height: 40px;
+  color: black;
+  opacity: 0.3;
+  display: block;
+
+}
+.BookContent{
+    width: 80%;
+
+    justify-content: center;
+    align-items: center;
+    background: url('https://car-rental-ten.vercel.app/static/media/book-bg.6f629a1041e9fd9c6685.png');
+   
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,.1) ;
+    padding: 20px 0px;
+    
+
+
+    
+}
+.BookmainContainer img{
+margin: 5px 15px 3px 5px;
+
+}
+.bookForm input{
+
+    width:250px ;
+    height: 40px;
+    color: #000000;
+    opacity: 0.3;
+    display: block;
+  
+}
+.BookmainContainer h2{
+    text-align: center;
+}
+.BookSearch{
+    margin-top: 5vh;
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+    
+}
+#Book_sub{
+
+padding: 2vh 8vw;
+border: none;
+
+background: #2954EA;
+font-size: 15px;
+color: #fff;
+cursor: pointer;
+transition: 0.5s;
+
+
+}
+#Book_sub:hover{
+box-shadow:  0 10px 15px rgba(41, 84, 234, 0.60);
+
+
+
+}
+.right div{
+    display: flex;
+
+}

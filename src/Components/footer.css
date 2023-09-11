@@ -1,0 +1,77 @@
+
+.Footcontainer{
+display: flex;
+justify-content: space-between;
+padding: 5% 15% 5%;
+
+
+}
+.miniContainer1 h2 span{
+   font-size: 4vh;
+}
+.miniContainer1  h3{
+    color: #706f7b;
+    font-size: 1.6 rem;
+    line-height: 1.7;
+   
+}
+li{
+    text-decoration: none;
+}
+.Footcontainer a{
+    text-decoration: none;
+    color:#010103 ;
+    margin-top: 5%;
+
+}
+.Footcontainer a:hover{
+    text-decoration: none;
+    color: #2954ea;
+
+}
+.miniContainer1,.miniContainer2,.miniContainer3,.miniContainer4{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.miniContainer3 h2,p{
+color: #010103;
+}
+.miniContainer3 p{
+    margin-bottom: 5%;
+}
+.miniContainer4 input{
+    background-color: #ececec;
+    border-color: transparent;
+    border-width: 1px;
+    
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 1rem;
+    outline: none;
+    padding: 10px 60px;
+
+}
+.miniContainer4 button{
+
+    height: 5vh;
+
+    background: #2954ea;
+    font-size: 15px;
+    color: #fff;    
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 3%;
+}
+.Footcontainer h2{
+    font-size: 25px;
+    font-weight: 800;
+}
+.miniContainer4 button:hover{
+    color: #2954ea;
+    background: #fff;
+    border: 1px solid #2954ea;
+}

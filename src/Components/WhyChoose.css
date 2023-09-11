@@ -1,0 +1,75 @@
+.whyChooseMainDiv{
+
+ 
+background: url("/whyChooseBack.png");
+background-repeat: no-repeat;
+background-position: -50px 350px;
+background-size: cover;
+display: flex;
+align-items: center;
+flex-direction: column;
+padding-bottom: 5%;
+
+}
+.whyChooseMainDiv img{
+  
+    width: 55%;
+}
+.textContainer{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 0% 3.5%
+}
+.textContainer p{
+    color: #000;
+}
+.textContainer  a{
+    display: flex;
+ text-decoration: none;
+ justify-content: space-around;
+ font-size: 16px;
+ font-weight: 600;
+
+ color:#fff;
+ 
+
+
+}
+.textContainer button{
+    width: 40%;
+    height: 6vh;
+    background-color: #2954EA;
+    border: none;
+    outline: none;
+    margin-top: 4%;
+}
+.textContainer img{
+   width: 10px;
+
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    
+
+ 
+}
+.right{
+    width: 30%;
+}
+.right h4{
+    font-size:1.5rem;
+}
+.right i{
+    font-size: 800%;
+
+
+
+}
+.right div{
+   display: flex;
+ padding: 3%;
+   align-items: center;
+}
