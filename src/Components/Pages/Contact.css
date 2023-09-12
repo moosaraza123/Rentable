@@ -1,0 +1,81 @@
+.FormNDInfo{
+    display: flex;
+ 
+  
+    background: url("/Contact-bg.png");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    align-items: center;
+    justify-content: space-around;
+    margin-top:5%;
+    padding: 5%;
+ 
+    
+
+}
+.Information{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.InformationForm{
+    width: 30%;
+    
+
+}
+.InformationForm input{
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding: 2%;
+    
+}
+
+.Information p{
+    color: grey;
+    margin-bottom: 3%;
+}
+.Email,.tell{
+    margin-top: 5%;
+}
+textarea{
+    padding: 2%;
+}
+@media screen and (min-width: 380px) and (max-width: 480px) {
+.FormNDInfo{
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+
+    width:
+     100%;
+}
+.Information h2{
+    width: 100%;
+    font-size: 40px;
+}
+.Information a{
+    text-decoration: none;
+    font-size: 10px;
+    margin: auto;
+    
+}
+.InformationForm{
+width: 100%;
+margin: 10%;
+margin: auto;
+
+}
+.fname,.Email,.tell{ 
+width: 80%;
+   }
+   .InformationForm form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+   }
+}

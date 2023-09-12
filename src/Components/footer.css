@@ -40,6 +40,7 @@ color: #010103;
 }
 .miniContainer3 p{
     margin-bottom: 5%;
+    color: #000;
 }
 .miniContainer4 input{
     background-color: #ececec;
@@ -75,3 +76,42 @@ color: #010103;
     background: #fff;
     border: 1px solid #2954ea;
 }
+
+@media screen and (min-width: 380px) and (max-width: 480px) {
+  
+ .Footcontainer {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    
+ }
+ .miniContainer1,.miniContainer2,.miniContainer3,.miniContainer4{
+    width: 100%;
+    align-items: center;
+    margin-top: 5%;
+ }
+.miniContainer1 h3{
+ 
+        display: inline-block;
+        font-size: 1.17em;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        text-align: center;
+    
+}
+.miniContainer1,.miniContainer2,.miniContainer3,.miniContainer4 p{
+  color: #000;
+ }
+
+.miniContainer4 button{
+    width: 70%;
+}
+.miniContainer4 p{
+    color: #000;
+}
+ }

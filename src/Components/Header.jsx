@@ -74,7 +74,7 @@ setClassName('mobileClickClass')
 
 
 
-export default Header
+
 
 function Navbar({value,eleVal}){
 
@@ -83,3 +83,5 @@ function Navbar({value,eleVal}){
  <a href={"/"+eleVal} className='navlinks'>{value}</a>
   </>
 }
+
+export default Header;

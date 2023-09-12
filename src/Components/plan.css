@@ -46,10 +46,26 @@ margin: 5vh 10vh;
 }
 .tutorial p{
     padding-top: 3%;
-    font-size: 15px;
-    font-size: 0.8rem;
+
+    font-size: 1.5rem;
     line-height: 1.43;
+    text-align: center;
    
     color: #706f7b;
    
 }
+@media screen and (min-width: 380px) and (max-width: 480px) {
+   .tutorialImgs{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   }
+   .tutorial h6,h5,h4,p{
+    text-align: center;
+   }
+   .selectCar,.contact,.EnjoyRide{
+    width: 100%;
+   }
+    
+    }

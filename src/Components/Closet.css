@@ -107,3 +107,22 @@ transition: 0.2s all;
     color: #fff;
 
 }
+@media screen and (min-width: 380px) and (max-width: 480px) {
+ 
+    .closetHeadDiv h3,h2,p{
+        text-align: center;
+    }
+    .closetDisplay{
+        flex-direction: column;
+      
+     }
+     .pick-box button{
+        width: 100%;
+        padding: 5%;
+     }
+     .pickedImg img{
+        width: 100%;
+        margin-top: 5%;
+     }
+
+    }

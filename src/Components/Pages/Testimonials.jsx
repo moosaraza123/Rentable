@@ -2,9 +2,32 @@ import React from 'react'
 import './Testimonials.css'
 import Ben from '/ben.png'
 import Bat from '/Batman.png'
+import Header from '../Header'
+import Footer from './../Footer'
 
 function Testimonials() {
   return <>
+
+ <div className="DivTop">
+
+<Header/>
+
+<div class="hero-pages__text">
+  <h3>About</h3>
+  <p><a href="/">Home</a> / About</p>
+  </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
   <div className="TestimonialSection">
   <h4>Reviewed by People</h4>
   <h2>Client's Testimonials</h2>
@@ -49,12 +72,15 @@ function Testimonials() {
 
 
   </div>
- 
+  <div className="AboutBanner">
+<p>Book A Car By Getting In Touch <span>( 0308-19440777 )</span></p>
+
+
+</div>
+<Footer/>
   
   
-  
-  
-  
+
   </>
    
   

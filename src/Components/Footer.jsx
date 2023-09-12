@@ -41,7 +41,7 @@ function Footer() {
             </div>
             <div className="miniContainer4">
                 <h2>subscription</h2>
-                <p>Subscribe your email address for latest news and updates</p>
+                <p style={{color:"#000"}}>Subscribe your email address for latest news and updates</p>
                 <input type="email" placeholder='Enter Email Here'/>
                 <button>submit</button>
             </div>

@@ -101,3 +101,19 @@ box-shadow:  0 10px 15px rgba(41, 84, 234, 0.60);
     display: flex;
 
 }
+@media screen and (min-width: 380px) and (max-width: 480px) {
+.bookForm{
+    justify-content: center;
+    align-items: center;
+}
+
+.firstThree{
+    flex-direction: column;
+}
+.lastTwo{
+    flex-direction: column;
+}
+
+
+
+}

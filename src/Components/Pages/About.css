@@ -1,0 +1,183 @@
+.hero-pages__text {
+padding: 10% 5% 15%;
+
+
+
+}
+.hero-pages__text h3{
+
+font-size: 3rem;
+font-weight: 900;
+
+
+}
+.hero-pages__text p{
+font-size: 1rem;
+font-weight: 600;
+color: #000;
+
+}
+.DivTop{
+    
+        background-image: url('/AboutImg.jpg');
+        
+    
+        background-position:40% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+   
+
+        width: 100%;
+    
+  
+}
+.hero-pages__text a{
+        text-decoration: none;
+        color: #000;
+}
+.hero-pages__text a:hover{
+        color: #2954ea;
+}
+.About{
+        width: 100%;
+        display: flex;
+        justify-content:center ;
+        margin-top: 10%;
+
+
+}
+.Aboutdiv{
+
+width: 65%;
+display: flex;
+justify-content: center;
+align-items: ;
+
+
+
+
+
+
+}
+
+
+.Aboutdiv p {
+    color: #706f7b;
+opacity: 0.3;
+    font-size: 1.5rem;
+ 
+
+
+}
+.Aboutdiv img{
+        width: 40%;
+        
+        padding-right: 5%;
+}
+.Aboutdiv h2{
+        font-weight: 900;
+        font-size: 40px;
+text-align: left;
+  
+}
+.AboutIcons {
+        display: flex;
+        flex-direction: column;
+   
+        justify-content: center;
+}
+.AboutIcons span {
+        color: #706f7b;
+        
+        font-size: 50px;
+        font-weight: 100;
+    
+}
+
+.AboutIcons p{
+        color: #706f7b;
+
+        font-size: 1.5rem;
+     
+}
+.AboutIcons h4{
+        font-size: 100px;
+        font-weight: 900;
+        padding-left: 3%;
+}
+.AboutIcons .fa-solid {
+        font-size: 70px;
+       
+        
+}
+.truck{
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        margin-top: 4%;
+}
+.building{
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        margin-top: 4%;
+}
+.box{
+        display: flex;
+        align-items: center;
+        margin-top: 4%;
+}
+.planNow{
+        margin-top: 10% ;
+        margin-left: 5%;
+        margin-right: 5%;
+}
+.AboutBanner{
+        width: 100%;
+  padding: 4% 0%;
+        background-color: #2d2d2d;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10%;
+}
+.AboutBanner p{
+        color: #fff;
+        font-size: 50px;
+        font-weight: 900;
+}
+.AboutBanner span{
+        font-size: 30px;
+}
+@media screen and (min-width: 380px) and (max-width: 480px) {
+       
+         .Aboutdiv img{
+                display: none;
+         }
+         .Aboutdiv{
+                width: 100%;
+                flex-direction: column;
+                align-items: center;
+         }
+         .Aboutdiv h3,p,h4{
+                text-align: center;
+         }
+         .Aboutdiv h2{
+                text-align: center;
+         }
+        .AboutIcons .fa-solid{
+                font-size: 50px;
+         }
+         .Aboutdiv h4{
+                font-size: 40px;
+         }
+         .Aboutdiv span{
+                font-size: 20px;
+         }
+         .truck,.building,.box{
+                margin-right: 0px;
+                align-items: center;
+                justify-content: center;
+                margin-top: 5%;
+         }
+         }

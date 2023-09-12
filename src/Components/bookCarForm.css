@@ -200,3 +200,6 @@ align-items: center;
 .reserveDiv button:hover{
     box-shadow: 2px 2px 10px #2A54EA;
 }
+.info-form__checkbox p{
+    color: #000;
+}

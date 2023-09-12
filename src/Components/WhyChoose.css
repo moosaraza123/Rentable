@@ -61,9 +61,10 @@ padding: 0% 3.5%
 }
 .right h4{
     font-size:1.5rem;
+    margin-left: 2%;
 }
 .right i{
-    font-size: 800%;
+    font-size: 500%;
 
 
 
@@ -73,3 +74,49 @@ padding: 0% 3.5%
  padding: 3%;
    align-items: center;
 }
+.right p{
+    font-weight: 200;
+    font-size: 15px;
+}
+@media screen and (min-width: 380px) and (max-width: 480px) {
+ .textContainer{
+    flex-direction: column;
+    display: 100%;
+
+ }
+ .whyChooseMainDiv{
+    margin-top: 5%;
+
+   
+ }
+ .left{
+    width: 100%;
+ }
+
+ .left h4{
+    font-size: 15px;
+  
+
+ }
+ .left h2{
+
+    font-size: 40px;
+    font-weight: 800;
+ }
+ .left p{
+    font-size: 20px;
+
+ }
+ .left button{
+    
+    margin:7% auto 7%;
+
+ }
+ .right{
+    width: 100%;
+ }
+ .right i{
+    display: block;
+ }
+   
+    }

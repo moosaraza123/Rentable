@@ -31,9 +31,8 @@ function FAQ() {
       You can find car rental deals by researching online and comparing prices from different rental companies. Websites such as Expedia, Kayak, and Travelocity allow you to compare prices and view available rental options. It is also recommended to sign up for email newsletters and follow rental car companies on social media to be informed of any special deals or promotions.
       </AccordionItem>
 
-      <AccordionItem header="3. Why do we use it?"  style={{fontSize:"17px",  color:" #706f7b",    }}>
-        Suspendisse massa risus, pretium id interdum in, dictum sit
-        amet ante. Fusce vulputate purus sed tempus feugiat.
+      <AccordionItem header="3. Why do i use it?"  style={{fontSize:"17px",  color:" #706f7b",    }}>
+        if you want car on rent use it
       </AccordionItem>
     </Accordion>
 </div>

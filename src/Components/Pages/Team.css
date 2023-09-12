@@ -1,0 +1,34 @@
+.members{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.member{
+
+        box-shadow: 0 20px 10px 0 rgba(0,0,0,.08);
+  
+}
+.PerDes{
+    margin-top: 5%;
+    
+  text-align: center;
+ border-top: 2px solid rgba(0,0,0,.08);
+
+}
+.PerDes h2{
+    font-size: 40px;
+    margin-top: 2%;
+}
+.PerDes h5{
+    font-size: 20px;
+    font-weight: 300;
+}
+@media screen and (min-width: 380px) and (max-width: 480px) {
+   .members{
+    flex-direction: column;
+    align-items:center ;
+
+   }
+  
+
+}

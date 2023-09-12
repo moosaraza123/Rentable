@@ -101,7 +101,7 @@ setClose("true")
 
       <span class="info-form__checkbox"><input type="checkbox"  /><p>Please send me latest news and updates</p></span>
       <div className='reserveDiv'>
-        <button type='submit'>Reserve Now </button>
+        <button type='submit' onClick={closeForm}>Reserve Now </button>
 
       </div>
 
